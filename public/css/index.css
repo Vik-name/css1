@@ -66,21 +66,21 @@ h1 {
 
 /* Завдання №1: Для першого елементу списку зробіть колір тексту білим
   Використовуйте Селектор першої дитини :first-child. */
-.first-task :first-child {
+.first-task li:first-child {
     color: white;
 }
 
 /* Завдання №2:  Змінити колір тексту першого елемента списку в першому блоці ul на жовтий
    Використовуйте Селектор першої дитини :first-child. */
 
-.second-task :first-child :first-child {
+.second-task :first-child li:first-child {
     color: yellow;
 }
 
    /* Завдання №3:   Змінити фон першого елементу на жовтий в другому блоку ul
   Використовуйте Селектор першої дитини :first-child. */
 
-.third-task :last-child :first-child {
+.third-task :last-child li:first-child {
     background: yellow;
 }
 
@@ -93,7 +93,7 @@ h1 {
 /* Завдання №5: Змінити колір тексту останнього елемента списку в останньому блоці ul на білий
  Використовуйте Селектор останньої дитини :last-child. */
 
-.five-task :last-child :last-child {
+.five-task ul:last-child :last-child {
     color: white;
 }
 
